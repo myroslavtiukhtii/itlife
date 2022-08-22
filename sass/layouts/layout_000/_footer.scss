@@ -1,0 +1,46 @@
+.footer {
+
+    padding-bottom: 40px;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            margin-bottom: 28px;
+        }
+
+        .menu {
+
+            margin-bottom: 28px;
+        }
+
+
+        .social {
+
+            display: flex; 
+            flex-direction: row; 
+            align-items: center;
+
+            &__item {
+                margin-right: 10px;
+            }
+
+            .icon {
+                padding: 10px;
+                width: 42px;
+                height: 42px;
+                fill:  #18B5DC;
+                border: 1px solid  #18B5DC;
+
+                &:hover {
+                    fill: #fff;
+                    background-color: $lightBlueColor;
+                    transition: all .3s ease-in-out;
+                }
+            }
+        }
+    }
+}

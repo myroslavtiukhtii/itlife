@@ -1,0 +1,25 @@
+.header {
+
+  &__nav {
+
+
+    .menu {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .menu__item:not(:last-child) {
+        margin-bottom: 0px;
+        margin-right: 30px;
+      }
+    }
+  }
+
+  &__callback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

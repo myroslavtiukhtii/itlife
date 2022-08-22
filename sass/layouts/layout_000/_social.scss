@@ -1,0 +1,108 @@
+.team {
+
+    padding-top: 25px;
+    margin-bottom: 40px;
+    background: #F6F6F6;
+
+
+    &__title {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        text-align: center;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .line {
+        content: '';
+        width: 45px;
+        height: 4px;
+        background: #DDDBDB;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    &__subtitle {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .team-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        @media only screen and (min-width: 768px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+
+        &__item {
+            max-width: 270px;
+            min-height: 333px;
+            padding-bottom: 30px;
+        }
+
+        .team-card__back {
+            padding: 114px 68px;
+            max-width: 270px;
+            min-height: 270px;
+            background-color: $lightBlueColor;
+
+            .icon {
+                width: 42px;
+                height: 42px;
+
+                &:hover {
+                    fill: $lightBlueColor;
+                    background-color: #fff;
+                    transition: all .3s ease-in-out;
+                }
+            }
+
+            .social {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .icon {
+                fill: #fff;
+                border: 1px solid transparent;
+                padding: 10px;
+                background-color: #5DCBE6;
+            }
+        }
+
+        .team-card__bottom {
+
+            h3 {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                color: #282528;
+            }
+
+            span {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                color: #646464;
+            }
+        }
+    }
+
+
+}

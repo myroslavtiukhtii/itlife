@@ -1,0 +1,31 @@
+
+.card {
+  width: 270px;
+  min-height: 270px;
+  perspective: 500px;
+}
+
+.content {
+  width: 270px;
+  min-height: 270px;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  margin-bottom: 20px;
+}
+
+.card:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  position: absolute;
+  min-height: 270px;
+  width: 270px;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY( 180deg );
+}

@@ -1,0 +1,17 @@
+* {
+  font-size: $baseFontSize;
+  font-weight: 400;
+  font-family: 'Lato', 'Arial', sans-serif;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}

@@ -1,0 +1,20 @@
+/* Font */
+$baseFontSize: 16px;
+
+/* Colors */
+$whiteColor: #fff;
+$blackColor: #000;
+$darkBlackColor: #282528;
+$mediumBlackColor: #3C3C3C;
+$lightBlueColor: #18B5DC;
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }

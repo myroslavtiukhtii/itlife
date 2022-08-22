@@ -1,0 +1,23 @@
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .menu {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 28px;
+
+            &__item {
+                margin-bottom: 0;
+                margin-right: 30px;
+            }
+        }
+    }
+}
